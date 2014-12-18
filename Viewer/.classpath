@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/lib/appframework-1.0.3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swing-worker-1.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swing-worker.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swingx-bean.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swingx-ws-2010_06_14.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swingx.jar"/>
+	<classpathentry kind="lib" path="dist/Viewer.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-2010_08_22.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_06_14.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/docs/javadoc/demo-taglet.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/docs/javadoc/demos.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/cobundle/swing-worker.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/cobundle/swingx-bean.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/cobundle/swingx.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/junit-4.5.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/optional/Filters.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/optional/swing-worker.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/optional/swingx-bean.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/lib/optional/swingx.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/swingx-2010_08_22.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/swingx-beaninfo-2010_08_22.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_08_22-bin/swingx-ws-2010_06_14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

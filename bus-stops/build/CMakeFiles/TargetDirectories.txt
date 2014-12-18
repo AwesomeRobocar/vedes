@@ -1,0 +1,1 @@
+/home/orotib/vedes/bus-stops/build/CMakeFiles/bus-stops.dir
