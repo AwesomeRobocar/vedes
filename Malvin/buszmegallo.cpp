@@ -7,15 +7,15 @@ bool wayToSort (const std::pair<std::string, long int>& lhs, const std::pair<std
   return lhs.second < rhs.second;
 }
 
-int main(int argc, char * args[])
+int main(int argc, char * argv[])
 {
     if (argc != 2)
     {
-        std::cout << "Usage: " << args[0] << " input.osmfile" << "\n";
+        std::cout << "Usage: " << argv[0] << " input.osmfile" << "\n";
         exit(1);
     }
 
-    osmium::io::File osmfile(args[1]);
+    osmium::io::File osmfile(argv[1]);
     osmium::io::Reader mReader(osmfile, osmium::osm_entity_bits::node); 
 
     std::vector< std::pair<std::string, long int> > nodeokID;
