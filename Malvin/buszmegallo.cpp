@@ -2,6 +2,11 @@
 #include <osmium/io/any_input.hpp>
 
 
+bool wayToSort (const std::pair<std::string, long int>& lhs, const std::pair<std::string, long int>& rhs)
+{
+  return lhs.second < rhs.second;
+}
+
 int main(int argc, char * args[])
 {
     if (argc != 2)
@@ -33,10 +38,7 @@ int main(int argc, char * args[])
 	}
       }
     }
-    std::sort(nodeokID.begin(), nodeokID.end(), [](const std::pair<std::string, long int>& lhs, const std::pair<std::string, long int>& rhs)
-    {
-        return lhs.second < rhs.second;
-    });
+    std::sort(nodeokID.begin(), nodeokID.end(), wayToSort);
     
     mReader.close();
     
@@ -65,7 +67,7 @@ int main(int argc, char * args[])
 	      std::cout << jaratSzam << " - " << buszTipus << std::endl; 
 	    }
 
-	    for( auto& e : mRelation.members())
+	    for( const auto& e : mRelation.members())
 	    {
 	      for(auto& i : nodeokID)
 	      {
@@ -87,7 +89,6 @@ int main(int argc, char * args[])
     }
 
     google::protobuf::ShutdownProtobufLibrary();
-    //befejezzük az olvasást, nem fontos, mert a konstruktor is megcsinálná, de kivételt is dobhat
     reader.close();
     return 0;
 }
