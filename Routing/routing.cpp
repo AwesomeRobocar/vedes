@@ -246,14 +246,14 @@ main (int argc, char *argv[])
 
 		}
 		//std::cout << "Vektor.size: " << v.size() << std::endl;
-		std::cout << i+1 << ": " << distance << std::endl;
+		std::cout /*<< i+1*/ << ": " << distance << std::endl;
 		//std::cout << "Koordináták: " << v[i].lon() << ", " << v[i].lat() << std::endl;
 		if(distance < min) {
 			min = distance;
 			index = i;
 		}
 		//std::cout << i << ", " << distance << std::endl;
-	} else /*std::cout << "A keresett út nem található!\n"*/;
+	} else std::cout << "A keresett út nem található!\n";
 	}
 	//std::cout << v[0] << std::endl;
 	//std::cout << v[1] << std::endl;
